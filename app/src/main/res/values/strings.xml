@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">BleChat</string>
+    <string name="app_suppurt_check">检查该设备是否支持蓝牙中</string>
+</resources>
