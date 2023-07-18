@@ -1,0 +1,10 @@
+<litepal>
+    <dbname value = "ble_chat"/>
+    <version value = "1"/>
+    <list>
+        <mapping class = "com.example.blechat.model.db.BleAddress"/>
+        <mapping class = "com.example.blechat.model.db.ChatInfor" />
+        <mapping class = "com.example.blechat.model.db.UserFriend"/>
+        <mapping class = "com.example.blechat.model.db.UserInfor" />
+    </list>
+</litepal>

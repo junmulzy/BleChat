@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Dialog基础样式-->
+    <style name="BaseDialog" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="EnrollDialogStyle" parent="BaseDialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimAmount">0.4</item><!--大背景的透明度，0表示全透明，1表示不透明-->
+    </style>
+
+    <!-- dialog-->
+
+    <style name="Enroll_Dialog_Text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp30</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_marginLeft">@dimen/dp10</item>
+        <item name="android:layout_marginRight">@dimen/dp10</item>
+        <item name="android:layout_marginTop">@dimen/dp5</item>
+        <item name="android:layout_marginBottom">@dimen/dp2</item>
+    </style>
+
+    <style name="Enroll_Dialog_Edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp30</item>
+        <item name="android:background">@drawable/edit_bg</item>
+        <item name="android:textSize">@dimen/sp12</item>
+        <item name="android:layout_marginLeft">@dimen/dp10</item>
+        <item name="android:layout_marginRight">@dimen/dp10</item>
+        <item name="android:lines">1</item>
+        <item name="android:paddingLeft">@dimen/dp5</item>
+        <item name="android:paddingRight">@dimen/dp5</item>
+    </style>
+
+    <dimen name="sp12">12sp</dimen>
+</resources>

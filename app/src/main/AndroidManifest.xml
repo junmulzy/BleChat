@@ -12,9 +12,13 @@
         android:supportsRtl="true"
         android:largeHeap="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-        tools:targetApi="31">
+        tools:targetApi="31"
+
+        android:name="org.litepal.LitePalApplication"
+
+        tools:ignore="MissingClass">
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:launchMode="singleTask"
             android:exported="true">
             <intent-filter>
