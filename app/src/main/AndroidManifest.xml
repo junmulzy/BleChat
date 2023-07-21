@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-
+    <!--  允许应用程序对蓝牙设备进行操作  -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!--  需要能够发现和配对附近的蓝牙设备  -->
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <!--  允许应用程序发现和配对蓝牙设备  -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--  蓝牙管理权限  -->
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!--  需要能够连接到配对的蓝牙设备  -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <!--  允许应用程序在没有用户交互的情况下配对蓝牙设备，并允许或禁止电话簿访问或消息访问  -->
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,7 +25,7 @@
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         tools:targetApi="31"
 
-        android:name="org.litepal.LitePalApplication"
+        android:name=".MyApplication"
 
         tools:ignore="MissingClass">
         <activity

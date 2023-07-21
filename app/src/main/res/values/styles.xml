@@ -36,7 +36,7 @@
 
     <style name="Enroll_Dialog_Edit">
         <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">@dimen/dp30</item>
+        <item name="android:layout_height">@dimen/dp48</item>
         <item name="android:background">@drawable/edit_bg</item>
         <item name="android:textSize">@dimen/sp12</item>
         <item name="android:layout_marginLeft">@dimen/dp10</item>

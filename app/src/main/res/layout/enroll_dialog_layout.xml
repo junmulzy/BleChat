@@ -9,6 +9,7 @@
     <TextView
         android:id="@+id/enroll_dialog_text_tel"
         android:text="请输入用户账号（6位）"
+        android:textSize="@dimen/sp14"
         style="@style/Enroll_Dialog_Text"
         />
 
@@ -23,6 +24,7 @@
     <TextView
         android:id="@+id/enroll_dialog_text_password"
         android:text="请输入账户密码："
+        android:textSize="@dimen/sp14"
         style="@style/Enroll_Dialog_Text"
         />
 
@@ -59,9 +61,9 @@
         <Button
             android:id="@+id/enroll_dialog_btn_ok"
             android:layout_width="0dp"
-            android:layout_height="@dimen/dp35"
+            android:layout_height="@dimen/dp48"
             android:layout_weight="1"
-            android:text="确定"
+            android:text="登录"
             android:textColor="#656363"
             android:textSize="@dimen/sp14"
             android:background="@drawable/dialog_enroll_bg"
@@ -76,9 +78,9 @@
         <Button
             android:id="@+id/enroll_dialog_btn_cancel"
             android:layout_width="0dp"
-            android:layout_height="@dimen/dp35"
+            android:layout_height="@dimen/dp48"
             android:layout_weight="1"
-            android:text="取消"
+            android:text="注册"
             android:textColor="#656363"
             android:textSize="@dimen/sp14"
             android:background="@drawable/dialog_enroll_bg"
